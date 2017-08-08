@@ -9,6 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
+        "js",
         "favicon.ico"
       ],
       "index": "index.html",
@@ -17,9 +18,11 @@
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
+      "prefix": "",
       "styles": [
-        "styles.css"
+        "../node_modules/mdi/css/materialdesignicons.min.css",
+        "styles/materialize.scss",
+        "styles/styles.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -51,7 +54,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }
