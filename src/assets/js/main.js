@@ -32,7 +32,7 @@ function openCorners(){
       $("#splash2").remove();
       $("#splash1").remove();
     }, 5000)
-    
+
 }
 
 var options = [
@@ -40,10 +40,11 @@ var options = [
     { selector: '#interests', offset: 0, callback: function(){slide('#interests');} },
     { selector: '.timeline', offset: 100, callback: function(){slide('#timeline_1');} },
     { selector: '.timeline', offset: 400, callback: function(){slide('#timeline_2');} },
-    { selector: '.timeline', offset: 800, callback: function(){slide('#timeline_3');} },
-    { selector: '.timeline', offset: 1200, callback: function(){slide('#timeline_4');} },
-    { selector: '.timeline', offset: 1600, callback: function(){slide('#timeline_5');} },
-    { selector: '.timeline', offset: 2000, callback: function(){slide('#timeline_6');} },
+    { selector: '.timeline', offset: 700, callback: function(){slide('#timeline_3');} },
+    { selector: '.timeline', offset: 1000, callback: function(){slide('#timeline_4');} },
+    { selector: '.timeline', offset: 1300, callback: function(){slide('#timeline_5');} },
+    { selector: '.timeline', offset: 1600, callback: function(){slide('#timeline_6');} },
+    { selector: '.timeline', offset: 1900, callback: function(){slide('#timeline_7');} },
     {
       selector: '#skills_design',
       offset: 0,
@@ -62,8 +63,8 @@ var options = [
       callback: function(){
         slide('#skills_dev');
         setTimeout(function(){
-          fill_progress('#angular2', 90);
-          fill_progress('#java', 85);
+          fill_progress('#angular2', 95);
+          fill_progress('#java', 80);
           fill_progress('#c_programming', 70);
         }, 500);
       }
