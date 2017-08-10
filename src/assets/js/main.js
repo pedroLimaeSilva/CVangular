@@ -27,12 +27,13 @@ function openCorners(){
     $("#corner2").addClass('loaded');
     $("#corner1").addClass('loaded');
     $("#corner").addClass('loaded');
+    /*
     setTimeout(()=>{
       $("#splash3").remove();
       $("#splash2").remove();
       $("#splash1").remove();
     }, 5000)
-
+    */
 }
 
 var options = [

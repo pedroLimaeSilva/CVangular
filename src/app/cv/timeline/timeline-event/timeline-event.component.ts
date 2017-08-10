@@ -17,7 +17,7 @@ export interface TimelineEvent {
 })
 export class TimelineEventComponent implements OnInit {
 
-  @Input() event: Event;
+  @Input() event: TimelineEvent;
 
   constructor() { }
 
