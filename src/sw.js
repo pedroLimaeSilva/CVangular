@@ -9,6 +9,7 @@ let appShellFilesToCache = [
   './index.html',
   './inline.bundle.js',
   './styles.bundle.js',
+  './polyfills.bundle.js',
   './vendor.bundle.js',
   './main.bundle.js',
   'https://code.jquery.com/jquery-2.1.1.min.js',

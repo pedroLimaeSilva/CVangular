@@ -16,7 +16,20 @@
   <meta name="theme-color" content="#303030">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+    <style>
+      div{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <div>
+      <p>Loading...</p>
+    </div>
+  </app-root>
   <script defer>
     const sw_enabled = true;
     if (sw_enabled && navigator.serviceWorker) {
