@@ -5,7 +5,7 @@ import { Subject } from 'rxjs/Subject';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 
-const experiencesUrl = '/assets/shared/experience.pt.json';
+const experiencesUrl = 'https://pedrolimasilva.github.io/CVangular/dist/assets/shared/experience.pt.json';
 
 @Injectable()
 export class TimelineService {
@@ -22,7 +22,7 @@ export class TimelineService {
 
   private extractData(res: Response) {
     let body = res.json();
-    return body || [];
+    return body.data || [];
   }
 
   private handleError(error: Response | any) {
